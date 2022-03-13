@@ -5,7 +5,7 @@ public class Git12345 {
 	public static void main(String[] args) {
 	System.out.println("Good Job Everyone!!!");
 	
-	System.out.println("7:45");
+	System.out.println("9.00");
 	
 	
 		
