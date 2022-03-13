@@ -7,7 +7,7 @@ public class Git12345 {
 		System.out.println("Hello Jane");
 		System.out.println("Hello Nucharee");
 		
-		System.out.println("Tom1234");
+		
 	}
 
 }
