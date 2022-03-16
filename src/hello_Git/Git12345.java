@@ -5,9 +5,9 @@ public class Git12345 {
 	public static void main(String[] args) {
 	System.out.println("Good Job Everyone!!!");
 	
-	System.out.println("my back!!! my legs!!! 8.02pm");
+
 	
-	System.out.println("Tuesday 15th 12.29am");
+	System.out.println("Wednesday 12.13am");
 		
 
 	}
