@@ -7,7 +7,7 @@ public class Git12345 {
 	
 
 	
-	System.out.println("Wednesday 12.13am");
+	System.out.println("Friday 3/18");
 		
 
 	}
