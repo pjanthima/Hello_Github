@@ -33,8 +33,9 @@ public class Git12345 {
 		System.out.println("Upper case : " + upperCase + " and count : " + countUpperC);
 		System.out.println("Lower case : " + lowerCase + " and count : " + countLowerCase);
 
-		int[] num = { 1, 2, 2, 3, 1, 4, 5, 6 };
+		int[] num = { 10, 10, 20, 30, 40, 50, 30, 60 };
 
+		System.out.println("Original Array = " + Arrays.toString(num));
 		String str1 = "";
 
 		for (int i = 0; i < num.length; i++) {
@@ -51,8 +52,13 @@ public class Git12345 {
 			int n = Integer.parseInt(tempNum[i]);
 			newNum[i] += n;
 		}
+
+		System.out.println("Unique number in array = "+Arrays.toString(newNum));
+    
 		System.out.println(Arrays.toString(newNum));
 		System.out.println("Hello");
+
+   
 	}
 
 }
