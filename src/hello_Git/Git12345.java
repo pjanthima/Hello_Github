@@ -52,8 +52,13 @@ public class Git12345 {
 			int n = Integer.parseInt(tempNum[i]);
 			newNum[i] += n;
 		}
-		System.out.println("Unique number in array = "+Arrays.toString(newNum));
 
+		System.out.println("Unique number in array = "+Arrays.toString(newNum));
+    
+		System.out.println(Arrays.toString(newNum));
+		System.out.println("Hello");
+
+   
 	}
 
 }
