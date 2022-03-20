@@ -52,7 +52,7 @@ public class Git12345 {
 			newNum[i] += n;
 		}
 		System.out.println(Arrays.toString(newNum));
-
+		System.out.println("Hello");
 	}
 
 }
