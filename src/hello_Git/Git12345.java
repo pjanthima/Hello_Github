@@ -1,10 +1,12 @@
 package hello_Git;
 
+import java.util.Arrays;
+
 public class Git12345 {
 
 	public static void main(String[] args) {
 		System.out.println("We will Practice again - Tom");
-		
+
 		// One of Interview question
 		String str = "Testing OnE Two THree";
 
@@ -30,6 +32,26 @@ public class Git12345 {
 		}
 		System.out.println("Upper case : " + upperCase + " and count : " + countUpperC);
 		System.out.println("Lower case : " + lowerCase + " and count : " + countLowerCase);
+
+		int[] num = { 1, 2, 2, 3, 1, 4, 5, 6 };
+
+		String str1 = "";
+
+		for (int i = 0; i < num.length; i++) {
+			String temp = num[i] + "";
+			if (!str1.contains(temp)) {
+				str1 += temp + ",";
+			}
+		}
+		String[] tempNum = str1.split(",");
+
+		int[] newNum = new int[tempNum.length];
+
+		for (int i = 0; i < tempNum.length; i++) {
+			int n = Integer.parseInt(tempNum[i]);
+			newNum[i] += n;
+		}
+		System.out.println(Arrays.toString(newNum));
 
 	}
 
